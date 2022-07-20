@@ -1,0 +1,43 @@
+.hero {
+  background-image:linear-gradient(to bottom right, #6E42C1 0% 1%, #4581EB 99% 100%);
+  padding-top:100px;
+  padding-bottom:80px;
+}
+
+.humburger {
+  display: none;
+}
+
+@media only screen and (max-width:1210px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .h-b-point {
+    display: none;
+  }
+
+  .humburger {
+    display: inline-block;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width:584px){
+
+  .hero-img {
+    width: 280px;
+    height: 320px;
+  }
+
+  .avatar {
+    width: 75px;
+    height: 75px;
+  }
+}
